@@ -1,0 +1,30 @@
+{
+  "name": "tensorflow_test_project",
+  "version": "1.0.0",
+  "description": "Training files of tensorflow.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack --mode development && node ./dist/bundle.js"
+  },
+  "keywords": [
+    "tensorflow",
+    "ai"
+  ],
+  "author": "lazzy07",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
